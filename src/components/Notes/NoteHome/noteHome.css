@@ -1,0 +1,11 @@
+.NoteHome {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    padding: 80px;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  display: none;
+}
+

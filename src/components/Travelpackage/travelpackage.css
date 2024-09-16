@@ -1,0 +1,54 @@
+.templateContainer{
+    margin: 10px 5px;
+    padding-top: 60px;
+    border-radius: 2rem;
+}
+.templateContainer > .searchInput_Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-color: lightblue;
+}
+.templateContainer > .searchInput_Container input{
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    color: rgb(5, 70, 102);
+}
+.templateContainer .template_Container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.templateContainer .template_Container .template{
+    background-color: white;
+    margin: 30px;
+    padding: 0px 20px;
+}
+.templateContainer .template_Container .template img{
+    height: 250px;
+    border-radius: 1rem;
+}
+
+.templateContainer .template_Container .template img:hover{
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+.desc{
+    text-align: center;
+    color: rgb(10, 89, 138);
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.price{
+    text-align: center;
+    color: rgb(20, 72, 105);
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
