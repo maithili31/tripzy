@@ -12,12 +12,12 @@ import Bookhome from './components/Booking/Bookhome';
 const App1 = () => {
   return (
     <>
-        {/* <Home />
+        <Home />
         <Popular />
         <Offers />
         <About />
-        <Blog /> */}
-        <Bookhome />
+        <Blog />
+        {/* <Bookhome /> */}
     </>
   )
 }
